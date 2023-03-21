@@ -15,9 +15,4 @@ longi = lleison_iss["iss_position"]["longitude"]
 posicion = f"https://maps.google.com/?q={lati},{longi}"
 st.write(posicion)
 
-coords = [lati,longi]
-df = pd.DataFrame(
-    coords,
-    columns=['lat', 'lon'])
-
-st.map(df)
+d = []
