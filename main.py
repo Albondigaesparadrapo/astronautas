@@ -21,4 +21,5 @@ sitio = [lati,longi]
 sitios = []
 sitios.append(sitio)
 sitios_df = pd.DataFrame(sitios,columns=["lat","lon"])
+st.write(sitios_df)
 st.map(sitios_df)
