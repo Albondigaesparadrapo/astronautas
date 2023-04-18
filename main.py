@@ -14,7 +14,8 @@ lati = lleison_iss["iss_position"]["latitude"]
 longi = lleison_iss["iss_position"]["longitude"]
 posicion = f"https://maps.google.com/?q={lati},{longi}"
 st.write(posicion)
-
+st.write(lati)
+st.write(longi)
 sitio = [lati,longi]
 sitios = []
 sitios.append(sitio)
